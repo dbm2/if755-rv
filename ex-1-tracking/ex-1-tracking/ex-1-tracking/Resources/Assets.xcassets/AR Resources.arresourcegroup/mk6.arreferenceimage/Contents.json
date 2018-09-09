@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "1234-01-1.png"
+      "filename" : "mk6.png"
     }
   ],
   "info" : {
@@ -10,7 +10,7 @@
     "author" : "xcode"
   },
   "properties" : {
-    "width" : 21,
+    "width" : 10,
     "unit" : "centimeters"
   }
 }

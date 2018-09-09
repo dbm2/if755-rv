@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82E552621418E1D0094FD0F /* MCTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E552521418E1D0094FD0F /* MCTracker.swift */; };
+		B82E552821418E470094FD0F /* MCHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E552721418E470094FD0F /* MCHolder.swift */; };
+		B82E552A21418F010094FD0F /* MCTrackerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E552921418F010094FD0F /* MCTrackerDelegate.swift */; };
 		B8447D49213EE02100B0F9CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8447D48213EE02100B0F9CE /* AppDelegate.swift */; };
-		B8447D4B213EE02100B0F9CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8447D4A213EE02100B0F9CE /* ViewController.swift */; };
-		B8447D4E213EE02100B0F9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8447D4C213EE02100B0F9CE /* Main.storyboard */; };
+		B8447D4B213EE02100B0F9CE /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8447D4A213EE02100B0F9CE /* MemoryCardView.swift */; };
+		B8447D4E213EE02100B0F9CE /* MemoryCardView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8447D4C213EE02100B0F9CE /* MemoryCardView.storyboard */; };
 		B8447D53213EE02300B0F9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8447D51213EE02300B0F9CE /* LaunchScreen.storyboard */; };
 		B8447D5F213EE52400B0F9CE /* Scenes.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B8447D5E213EE52400B0F9CE /* Scenes.scnassets */; };
 		B8447D65213EE96000B0F9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8447D64213EE96000B0F9CE /* Assets.xcassets */; };
+		B8D22D792141964F00D9A719 /* MCTrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D22D782141964F00D9A719 /* MCTrackerProtocol.swift */; };
+		B8D22D7D2141AF3500D9A719 /* MemoryCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D22D7C2141AF3500D9A719 /* MemoryCardViewModel.swift */; };
+		B8D22D7F2141AF4200D9A719 /* MemoryCardViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D22D7E2141AF4200D9A719 /* MemoryCardViewModelProtocol.swift */; };
+		B8D22D812141B53800D9A719 /* MemoryCardViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D22D802141B53800D9A719 /* MemoryCardViewModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82E552521418E1D0094FD0F /* MCTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCTracker.swift; sourceTree = "<group>"; };
+		B82E552721418E470094FD0F /* MCHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCHolder.swift; sourceTree = "<group>"; };
+		B82E552921418F010094FD0F /* MCTrackerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCTrackerDelegate.swift; sourceTree = "<group>"; };
 		B8447D45213EE02100B0F9CE /* ex-1-tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ex-1-tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8447D48213EE02100B0F9CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8447D4A213EE02100B0F9CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8447D4D213EE02100B0F9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8447D4A213EE02100B0F9CE /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		B8447D4D213EE02100B0F9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MemoryCardView.storyboard; sourceTree = "<group>"; };
 		B8447D52213EE02300B0F9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8447D54213EE02300B0F9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8447D5E213EE52400B0F9CE /* Scenes.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Scenes.scnassets; sourceTree = "<group>"; };
 		B8447D64213EE96000B0F9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8D22D782141964F00D9A719 /* MCTrackerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCTrackerProtocol.swift; sourceTree = "<group>"; };
+		B8D22D7C2141AF3500D9A719 /* MemoryCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardViewModel.swift; sourceTree = "<group>"; };
+		B8D22D7E2141AF4200D9A719 /* MemoryCardViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardViewModelProtocol.swift; sourceTree = "<group>"; };
+		B8D22D802141B53800D9A719 /* MemoryCardViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardViewModelDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			children = (
 				B8447D5D213EE03800B0F9CE /* Resources */,
 				B8447D5C213EE03400B0F9CE /* App */,
+				B8D22D74214194D400D9A719 /* AR */,
 				B8447D5B213EE02F00B0F9CE /* Screens */,
 			);
 			path = "ex-1-tracking";
@@ -93,6 +108,7 @@
 		B8447D62213EE67100B0F9CE /* Recognition */ = {
 			isa = PBXGroup;
 			children = (
+				B8D22D7B2141AF2800D9A719 /* ViewModel */,
 				B8447D63213EE67B00B0F9CE /* View */,
 			);
 			path = Recognition;
@@ -101,10 +117,47 @@
 		B8447D63213EE67B00B0F9CE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B8447D4C213EE02100B0F9CE /* Main.storyboard */,
-				B8447D4A213EE02100B0F9CE /* ViewController.swift */,
+				B8447D4C213EE02100B0F9CE /* MemoryCardView.storyboard */,
+				B8447D4A213EE02100B0F9CE /* MemoryCardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B8D22D74214194D400D9A719 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				B8D22D76214194E800D9A719 /* Model */,
+				B8D22D75214194E300D9A719 /* Tracker */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		B8D22D75214194E300D9A719 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				B8D22D782141964F00D9A719 /* MCTrackerProtocol.swift */,
+				B82E552521418E1D0094FD0F /* MCTracker.swift */,
+				B82E552921418F010094FD0F /* MCTrackerDelegate.swift */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		B8D22D76214194E800D9A719 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B82E552721418E470094FD0F /* MCHolder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8D22D7B2141AF2800D9A719 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B8D22D7E2141AF4200D9A719 /* MemoryCardViewModelProtocol.swift */,
+				B8D22D7C2141AF3500D9A719 /* MemoryCardViewModel.swift */,
+				B8D22D802141B53800D9A719 /* MemoryCardViewModelDelegate.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +221,7 @@
 				B8447D53213EE02300B0F9CE /* LaunchScreen.storyboard in Resources */,
 				B8447D5F213EE52400B0F9CE /* Scenes.scnassets in Resources */,
 				B8447D65213EE96000B0F9CE /* Assets.xcassets in Resources */,
-				B8447D4E213EE02100B0F9CE /* Main.storyboard in Resources */,
+				B8447D4E213EE02100B0F9CE /* MemoryCardView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,20 +232,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8447D4B213EE02100B0F9CE /* ViewController.swift in Sources */,
+				B82E552621418E1D0094FD0F /* MCTracker.swift in Sources */,
+				B8447D4B213EE02100B0F9CE /* MemoryCardView.swift in Sources */,
+				B8D22D812141B53800D9A719 /* MemoryCardViewModelDelegate.swift in Sources */,
+				B8D22D792141964F00D9A719 /* MCTrackerProtocol.swift in Sources */,
 				B8447D49213EE02100B0F9CE /* AppDelegate.swift in Sources */,
+				B8D22D7D2141AF3500D9A719 /* MemoryCardViewModel.swift in Sources */,
+				B82E552A21418F010094FD0F /* MCTrackerDelegate.swift in Sources */,
+				B82E552821418E470094FD0F /* MCHolder.swift in Sources */,
+				B8D22D7F2141AF4200D9A719 /* MemoryCardViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8447D4C213EE02100B0F9CE /* Main.storyboard */ = {
+		B8447D4C213EE02100B0F9CE /* MemoryCardView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B8447D4D213EE02100B0F9CE /* Base */,
 			);
-			name = Main.storyboard;
+			name = MemoryCardView.storyboard;
 			sourceTree = "<group>";
 		};
 		B8447D51213EE02300B0F9CE /* LaunchScreen.storyboard */ = {

@@ -5,7 +5,22 @@
   },
   "resources" : [
     {
-      "filename" : "PlaneAnchor.arreferenceimage"
+      "filename" : "mk1.arreferenceimage"
+    },
+    {
+      "filename" : "mk2.arreferenceimage"
+    },
+    {
+      "filename" : "mk3.arreferenceimage"
+    },
+    {
+      "filename" : "mk4.arreferenceimage"
+    },
+    {
+      "filename" : "mk5.arreferenceimage"
+    },
+    {
+      "filename" : "mk6.arreferenceimage"
     }
   ]
 }
